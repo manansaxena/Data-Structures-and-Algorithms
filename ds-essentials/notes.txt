@@ -1,3 +1,17 @@
 Arrays - 
 
-- 
+-	An array is a collection of elements of the same type placed in a contiguous memory locations.
+-	Operations - 
+		-	Creation, Insertion, Deletion and Updation
+-	Char Array
+		-	Each char has a size of one byte
+		- 	A character array should always terminate with a null character - '\0'
+-	Array to function as a reference
+	-	If you print the size of array in main you would get the actual size but if you print it in function you will get 8 bytes as in a function it only passes the address of the first element of the array as a pointer
+-	Linear Search (Brute Force Technique)
+	-	Go to each index and check if it is equal to the key or not.
+	-	Time Complexity : O(n)
+-	Binary Search ()
+	-	Works on sorted arrays
+	-	Efficient searching algorithm
+	-	Time Complexity : O(log n)
